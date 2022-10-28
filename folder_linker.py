@@ -9,6 +9,7 @@ class FolderLinker:
     def __init__(self, source: str = None, replica: str = None) -> bool:
         self.source, self.replica = self.get_folder(source=source, replica=replica) # defining source and replica variables
         result = self.paste_in() # replacing files from source into replica
+        return result
 
     def get_folder(self, source: str, replica: str) -> Tuple:
         if len(sys.argv) > 2:
