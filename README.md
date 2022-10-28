@@ -10,11 +10,15 @@ Usage:
 
 1. Python module:
 
-`from folder_linker import FolderLinker`
-`folder1 = "source"`
-`folder2 = "replica"`
-`fl = FolderLinker(folder1, folder1)`
+```python
+from folder_linker import FolderLinker
+folder1 = "source"
+folder2 = "replica"
+fl = FolderLinker(folder1, folder1)
+```
 
 Result of class method is `bool`...
-`True` - successful
-`False` - failed
+```python
+True = successful
+False = failed
+```
