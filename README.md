@@ -2,13 +2,13 @@
 
 This script copies all files and subfolder from source folder and paste into any other folder
 
-Usage:
+Usage (one-time):
 
 1. Terminal:
 
-`& python \folder_linker.py [folder1] [folder2]`
+`$ python \folder_linker.py [folder1] [folder2] [logfile]`
 
-1. Python module:
+2. Python module:
 
 ```python
 from folder_linker import FolderLinker
@@ -17,8 +17,9 @@ folder2 = "replica"
 fl = FolderLinker(folder1, folder1)
 ```
 
-Result of class method is `bool`...
-```python
-True = successful
-False = failed
-```
+Usage (periodically):
+
+1. Script
+
+`$ `
+
