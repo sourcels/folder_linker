@@ -2,24 +2,8 @@
 
 This script copies all files and subfolder from source folder and paste into any other folder
 
-Usage (one-time):
+Usage:
+`$ python \folder_linker.py [folder1] [folder2] [logfile] [interval in minutes (default: 10)]`
 
-1. Terminal:
-
-`$ python \folder_linker.py [folder1] [folder2] [logfile]`
-
-2. Python module:
-
-```python
-from folder_linker import FolderLinker
-folder1 = "source"
-folder2 = "replica"
-fl = FolderLinker(folder1, folder1)
-```
-
-Usage (periodically):
-
-1. Script
-
-`$ `
-
+Example:
+`$ python \folder_linker.py source replica 30 debug.log`
